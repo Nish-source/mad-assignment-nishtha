@@ -46,7 +46,7 @@ Features:
   * Restart
 
 Sample video URL used:
-https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+https://media.w3.org/2010/05/sintel/trailer.mp4
 
 Concepts used:
 

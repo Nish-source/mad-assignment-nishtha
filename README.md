@@ -136,7 +136,7 @@ Concepts used:
 
 ## 👤 Author
 
-Your Name
+Nishtha
 
 ---
 

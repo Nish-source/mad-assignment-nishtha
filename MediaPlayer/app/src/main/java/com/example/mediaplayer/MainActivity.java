@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         controller.setAnchorView(videoView);
     }
 
-    // 🎵 OPEN AUDIO (RAW FILE SELECT DIALOG)
+
     public void openAudio(View view) {
 
         String[] audioFiles = {"Song 1"};
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         builder.show();
     }
 
-    // 🎥 OPEN VIDEO FROM URL
+
     public void openVideo(View view) {
         String url = videoUrl.getText().toString().trim();
 
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    // ▶ PLAY
+
     public void playMedia(View view) {
         if (mediaPlayer != null) {
             mediaPlayer.start();
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // ⏸ PAUSE
+
     public void pauseMedia(View view) {
         if (mediaPlayer != null && mediaPlayer.isPlaying()) {
             mediaPlayer.pause();
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // ⏹ STOP
+
     public void stopMedia(View view) {
         if (mediaPlayer != null) {
             mediaPlayer.stop();
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // 🔄 RESTART
+
     public void restartMedia(View view) {
         if (mediaPlayer != null) {
             mediaPlayer.seekTo(0);

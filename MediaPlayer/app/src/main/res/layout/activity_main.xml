@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- AUDIO BUTTONS -->
+
+    <Button
+        android:text="@string/open_audio"
+        android:onClick="openAudio"
+        android:minHeight="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/play"
+        android:onClick="playMedia"
+        android:minHeight="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/pause"
+        android:onClick="pauseMedia"
+        android:minHeight="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/stop"
+        android:onClick="stopMedia"
+        android:minHeight="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/restart"
+        android:onClick="restartMedia"
+        android:minHeight="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- VIDEO SECTION -->
+
+    <EditText
+        android:id="@+id/videoUrl"
+        android:hint="@string/enter_url"
+        android:inputType="textUri"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/open_url"
+        android:onClick="openVideo"
+        android:minHeight="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
